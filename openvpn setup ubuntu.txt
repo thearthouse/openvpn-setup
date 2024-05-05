@@ -1,0 +1,17 @@
+mkdir openvpn
+cd openvpn
+wget https://raw.githubusercontent.com/angristan/openvpn-install/master/openvpn-install.sh
+chmod +x openvpn-install.sh
+./openvpn-install.sh
+## set google dns others enter
+systemctl start openvpn@server.service
+systemctl enable openvpn@server.service
+systemctl status openvpn@server.service
+
+
+## to add remove user 
+./openvpn-install.sh
+
+
+
+
