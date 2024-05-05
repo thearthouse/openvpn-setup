@@ -13,5 +13,5 @@ systemctl status openvpn@server.service
 ./openvpn-install.sh
 
 
-
-
+##start http server on root and download file
+python3 -m http.server
